@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Metropolis Light";
+    font-style: normal;
+    src: 
+      local("Metropolis Light"),
+      url('../fonts/metropolis/Metropolis-Light.woff') format('woff'),
+      url('../fonts/metropolis/Metropolis-LightItalic.woff') format('woff')
+}
+
+@font-face {
+    font-family: "Metropolis Light";
+    font-style: italic;
+    src: 
+      local("Metropolis Light"),
+      url('../fonts/metropolis/Metropolis-LightItalic.woff') format('woff')
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+    font-family: 'Metropolis Light';
+    // font-size: 3em;
+    // letter-spacing: .07em;
+    // font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    // font-size: 1em;
+}
